@@ -1,0 +1,46 @@
+
+
+.carrinho{
+  position: fixed;
+
+  top:0;
+  left: 70%;
+  width: 30%;
+  background-color: #414446;
+  height: 100vh;
+  transform: translateX(100%);
+  transition: all 0.5s;
+}
+
+.carrinho div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;
+}
+
+.carrinho p{
+    width: 100%;
+    color: white;
+}
+
+.carrinho i{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.qntPro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.buttonFechaCars{
+  display: flex;
+  justify-content: flex-end;
+}
+

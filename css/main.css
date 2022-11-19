@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap'); 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .menuTop{
+   position: fixed;
+   top: 0;
+   width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    background-color: #303234;
+    gap: 10px;
+    padding:  10px 0px;
+ }
+
+ .divLogo{
+   display: flex;
+   justify-content:flex-start;
+   align-items: center;
+   width:95%;
+   color:rgb(255, 204, 0);
+   font-size: 16pt;
+   font-family: 'Tangerine', cursive;
+   padding: 0px 20px;
+   
+ }
+
+ .itemsTop{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+   
+    
+ }
+
+ .itemsTop a{
+   text-decoration: none;
+   color: white;
+   font-family: 'Dosis', sans-serif;
+   letter-spacing: 1px;
+   transition: all 0.5s;
+  
+ }
+
+ .itemsTop a:hover{
+   color: orange;
+ }
+
+ .iconesTop{
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 30px;
+   padding: 0px 20px ;
+   width: 95%;
+   
+  
+}
+
+
+.iconesTop i{
+   cursor: pointer;
+   color: white;
+   
+   transition: all 0.5s;
+}
+
+.buttonMenu{
+   transform: scale(1.2);
+}
+
+.iconesTop i:hover{
+   color:orange ;
+}
+
+.buttonCars{
+   display: flex;
+}
+
+.contCars{
+   background-color:red;
+   color: white;
+   font-size: 10pt;
+   width: 15px;
+   height: 15px;
+   border-radius:50% ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: translateY(-7px) translateX(7px);
+}
+
+
+
+header{
+   width: 100%;
+   height:100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+   background-color: #303234;
+   background-image: url("../img/fundo\ header.png");
+   background-size: cover;
+   background-position: 50% 50%;
+
+}
+
+.redes{
+   padding: 0px 50px ;
+}
+
+.redes a{
+   display: block;
+   margin: 30px 0px;
+   text-decoration: none;
+   color: white;
+   transform: scale(1.1);
+   transition: all 0.3s;
+}
+
+.redes a:hover{
+   color: orange;
+   transform: scale(1.3);
+}
+
+.contHeader{
+   margin: auto;
+   width: 80%;
+}
+
+.contHeader p{
+   line-height: 60px;
+   font-size: 27pt;
+   width:50% ;
+   margin-bottom: 20px;
+   font-family: 'Handlee', cursive;
+   color: white;
+}
+
+.contHeader button{
+   border:none;
+   padding: 10px 25px;
+   cursor: pointer;
+   border-radius: 20px;
+   font-size: 10pt;
+   color: white;
+   background-color: orange;
+   letter-spacing: 1px;
+   font-family: 'Dosis', sans-serif;
+   font-weight: 600;
+   transition: all 0.5s;
+}
+
+.contHeader button:hover{
+   background-color:rgb(205, 133, 0);
+}
+
+.menuLateral{
+   transform:translateX(-100%);
+  text-align: center;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width:30% ;
+  background-color: #414446;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.menuLateral ul{
+   text-align: left;
+   width: 90%;
+   list-style:none ;
+}
+
+.menuLateral li{
+ 
+   margin: 30px 0px;
+   padding: 10px;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+ transition: all 0.5s;
+ 
+   
+}
+
+.menuLateral li:hover{
+   background-color: #303234;
+}
+
+.menuLateral img{
+   width:25px;
+   height: 25px;
+}
+
+.menuLateral a{
+
+   display: flex;
+   align-items: center;
+   width: 100%;
+   gap: 10px;
+   color: white;
+   text-decoration: none;
+   font-family: 'Dosis', sans-serif;
+   font-weight: 600;
+   letter-spacing:2px ;
+}
+
