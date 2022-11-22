@@ -6,6 +6,19 @@
     padding: 0;
  }
 
+ body{
+   background-color:#303234;
+ }
+
+ body::-webkit-scrollbar{
+   background-color: #303234;
+   width:3px ;
+ }
+
+ body::-webkit-scrollbar-thumb{
+   background-color: orange;
+ }
+
  .menuTop{
    position: fixed;
    top: 0;
@@ -66,12 +79,16 @@
   
 }
 
+.iconesTop li{
+   padding: 5px;
+}
+
 
 .iconesTop i{
    cursor: pointer;
    color: white;
-   
    transition: all 0.5s;
+ 
 }
 
 .buttonMenu{
@@ -84,19 +101,26 @@
 
 .buttonCars{
    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   background-color: #575b5e;
+ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.462);
+  transform: scale(0.9);
 }
 
 .contCars{
-   background-color:red;
+   position: absolute;
+   background-color:orange;
    color: white;
-   font-size: 10pt;
+   font-size: 8pt;
    width: 15px;
    height: 15px;
    border-radius:50% ;
    display: flex;
    justify-content: center;
    align-items: center;
-   transform: translateY(-7px) translateX(7px);
+   transform: translateY(-10px) translateX(-15px);
 }
 
 

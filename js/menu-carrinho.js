@@ -42,3 +42,5 @@ function removeCars(){
   carrinho.style.transform="translate(100%)"
 }
 
+
+

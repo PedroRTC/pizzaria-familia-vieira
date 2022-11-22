@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.cardapío{
+margin: auto;
+text-align: center;
+margin-top: 50px;
+
+}
+
+.headerCdp{
+  padding: 30px 0px;
+  background-image: url("../img/herderCdp.png");
+  background-size: cover;
+}
+
+.titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30pt;
+    color: white;
+}
+
+.subtitulo{
+    display: inline-block;
+    color: orange;
+    margin-bottom: 10px;
+    font-size: 10pt;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+hr{
+    
+    margin: auto;
+    margin-top: 10px;
+    width:50px ;
+    height:2px ;
+    border:none ;
+    background-color: orange;
+}
