@@ -114,7 +114,7 @@
            },
 
            {
-            "nome": "FRANGO C/REQUEIJÃO",
+            "nome": "FRANGO C/CTPY",
             "img": "img/pizza/frango com requeijao.png",
             "ingredientes" :"muçarela, frango, requeijão",
             "valor" : "24,99",
@@ -122,7 +122,7 @@
            },
 
            {
-            "nome": "CALABRESA C/REQUEIJÃO ",
+            "nome": "CALABRESA C/CTPY ",
             "img": "img/pizza/calabresa-requeijão.png",
             "ingredientes" :"muçarela, calabresa, cebola, pimenta , requeijão",
             "valor" : "24,99",
@@ -146,7 +146,7 @@
            },
 
            {
-            "nome": "CARNE DE SOL C/REQUEIJÃO ",
+            "nome": "CARNE DE SOL/CTPY ",
             "img": "img/pizza/carne-de-sol_com_requeijão.png",
             "ingredientes" :"muçarela, carne de sol, cebola, requeijão",
             "valor" : "27,99",
@@ -170,7 +170,7 @@
            },
 
            {
-            "nome": "CAMARRÃO C/REQUEIJÃO",
+            "nome": "CAMARRÃO C/CTPY",
             "img": "img/pizza/camarao-requeijão.png",
             "ingredientes" :"muçarela, tomate,camarrão refogado,requeijão",
             "valor" : "27,99",

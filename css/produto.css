@@ -1,0 +1,139 @@
+.pizza{
+    margin: auto;
+    width: 90%;
+    
+}
+
+.tituloSecão{
+   background-color:#404244;
+   font-family: 'Dosis', sans-serif;
+   text-align:center;
+   width:150px ;
+   font-size: 10pt;
+   padding: 5px 0px;
+   letter-spacing: 2px;
+   border-radius: 20px;
+   color: rgb(255, 226, 173);
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.255);
+
+}
+
+.containerButton{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0px;
+   gap: 10px;
+}
+
+.setaEsquerda{
+   background-image: url("../img/esquerda.png"); 
+  
+}
+
+.setaDireita{
+    background-image: url("../img/direita.png"); 
+   
+ }
+
+.containerButton button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-size: cover;
+    background-color: transparent;
+    background-color:#404244;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.containerButton button:hover{
+    background-color:#545658;
+}
+.containerPizza{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    overflow:hidden;
+    padding: 50px 0px;
+    scroll-snap-type: x mandatory;
+    
+}
+
+
+.card{
+    width:200px ;
+    height:270px ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.462);
+    margin:0px 10px ;
+    flex:none ;
+   scroll-snap-align: start;
+}
+
+.imgProduto{
+  width:170px ;
+  height:170px ;
+  transform: translateY(-50px);
+  border-radius:100% ;
+}
+
+.desProduto{
+  text-align: left;
+  padding: 0px 15px;
+}
+
+.desProduto p{
+  font-size: 10pt;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  margin-bottom: 5px;
+  
+  
+}
+
+.nomeP{
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.subNome{
+    opacity: 0.5;
+}
+
+.valorEcars{
+    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+ 
+}
+
+.valor{
+  width: 100%;
+  text-align: left;
+  color:orange;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14pt;
+}
+
+.cars{
+  width: 100%;
+  text-align: right;
+  
+}
+
+.cars i{
+  background-color: rgb(255, 226, 173);
+  padding: 5px 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  transition: all 0.5s;
+}
+
+
+.cars i:hover{
+    background-color: orange;
+}
