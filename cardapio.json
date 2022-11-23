@@ -149,7 +149,7 @@
             "nome": "CARNE DE SOL/CTPY ",
             "img": "img/pizza/carne-de-sol_com_requeijão.png",
             "ingredientes" :"muçarela, carne de sol, cebola, requeijão",
-            "valor" : "27,99",
+            "valor" : "29,99",
             "pesquisa" : "pizza carne de sol com requeijão"
            },
 
@@ -173,7 +173,7 @@
             "nome": "CAMARRÃO C/CTPY",
             "img": "img/pizza/camarao-requeijão.png",
             "ingredientes" :"muçarela, tomate,camarrão refogado,requeijão",
-            "valor" : "27,99",
+            "valor" : "29,99",
             "pesquisa" : "pizza camarrão com requeijão"
            },
 
@@ -189,7 +189,7 @@
             "nome": "FAMÍLIA VIEIRA",
             "img": "img/pizza/familia vieira.png",
             "ingredientes" :"muçarela, pimenta calabresa, tomate, bacon, carne de sol ,cebola, requeijão",
-            "valor" : "27,99",
+            "valor" : "29,99",
             "pesquisa" : "pizza família vieira"
            },
 
@@ -237,7 +237,7 @@
             "nome": "CHOCOLATE",
             "img": "img/pizza/chocolate.png",
             "ingredientes" :"muçarela, chocolate",
-            "valor" : "24,99",
+            "valor" : "29,99",
             "pesquisa" : "pizza chocolate"
            }
         ],

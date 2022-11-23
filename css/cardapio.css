@@ -6,13 +6,15 @@
 margin: auto;
 text-align: center;
 margin-top: 50px;
+border-bottom: 1px solid #5456589a;
+margin-bottom: 30px;
+
 
 }
 
 .headerCdp{
-  padding: 30px 0px;
-  background-image: url("../img/herderCdp.png");
-  background-size: cover;
+  padding: 20px 0px;
+ 
 }
 
 .titulo{

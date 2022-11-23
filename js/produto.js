@@ -1,4 +1,7 @@
-let containerPizza=document.querySelector(".containerPizza")
+let containerProdutos=document.querySelector(".containerProdutos")
+let setaEsquerda=document.querySelector(".setaEsquerda")
+let setaDireita=document.querySelector(".setaDireita")
+
 let todosProdutos=[]
 
 
@@ -8,7 +11,7 @@ async function init(){
     try {
        todosProdutos = await produtos()
         
-        geraPizza()
+        geraProdutos()
        
     } catch (error) {
 
@@ -21,7 +24,7 @@ init()
 
 
 
-function geraPizza(){
+function geraProdutos(){
 
     todosProdutos.pizza.map(item=>{
        
@@ -50,8 +53,23 @@ function geraPizza(){
         valor.innerHTML=item.valor
         cars.innerHTML=`<i class="fa fa-shopping-basket" aria-hidden="true"></i>`
        
-      containerPizza.appendChild(card)
+      containerProdutos.appendChild(card)
 
     })
 
 }
+
+function carrosselProdutos(){
+    
+    setaEsquerda.addEventListener("click",()=>{
+       containerProdutos.scrollBy(-200,0)
+    })
+
+    setaDireita.addEventListener("click",()=>{
+        containerProdutos.scrollBy(200,0)
+     })
+     
+    
+}
+
+carrosselProdutos()

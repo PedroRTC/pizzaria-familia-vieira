@@ -1,6 +1,6 @@
-.pizza{
+.todosProtudos{
     margin: auto;
-    width: 90%;
+    width: 96%;
     
 }
 
@@ -50,13 +50,14 @@
 .containerButton button:hover{
     background-color:#545658;
 }
-.containerPizza{
+.containerProdutos{
     width: 100%;
     display:flex;
     align-items: center;
     overflow:hidden;
     padding: 50px 0px;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     
 }
 
@@ -66,14 +67,15 @@
     height:270px ;
     border-radius: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.462);
-    margin:0px 10px ;
+    margin:0px 9px ;
     flex:none ;
    scroll-snap-align: start;
+   border: 1px solid #5456589a;
 }
 
 .imgProduto{
-  width:170px ;
-  height:170px ;
+  width:180px ;
+  height:180px ;
   transform: translateY(-50px);
   border-radius:100% ;
 }
@@ -81,6 +83,7 @@
 .desProduto{
   text-align: left;
   padding: 0px 15px;
+  transform: translateY(-20px);
 }
 
 .desProduto p{
@@ -103,7 +106,7 @@
 }
 
 .valorEcars{
-    margin-top: 20px;
+    margin-top: 10px;
   display: flex;
   align-items: center;
   padding: 0px 15px;
@@ -125,12 +128,12 @@
 }
 
 .cars i{
-  background-color: rgb(255, 226, 173);
+  background-color:rgb(255, 226, 173);
   padding: 5px 3px;
   border-radius: 5px;
   cursor: pointer;
-  color: black;
   transition: all 0.5s;
+
 }
 
 
