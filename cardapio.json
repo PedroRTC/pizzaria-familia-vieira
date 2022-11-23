@@ -4,96 +4,96 @@
            {
             "nome": "TOSCANA",
             "img": "img/pizza/toscana.png",
-            "ingredientes" :"muçarela, calabresa, moída, pimenta calabresa, cebola",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, calabresa, moída, pimenta calabresa, cebola",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza Toscana"
            },
 
            {
             "nome": "MUSSARELA  ",
             "img": "img/pizza/mussarela.png",
-            "ingredientes" :"muçarela, tomate",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, tomate",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza mussarela"
            },
 
            {
             "nome": "MISTA",
             "img": "img/pizza/mista.png",
-            "ingredientes" :"muçarela, presunto, cebola",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, presunto, cebola",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza mista"
            },
 
            {
             "nome": "MILHO",
             "img": "img/pizza/milho.png",
-            "ingredientes" :"muçarela, milho, cebola",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, milho, cebola",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza milho"
            },
 
            {
             "nome": "CALABRESA",
             "img": "img/pizza/calabresa.jpg",
-            "ingredientes" :"muçarela, calabresa, cebola",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, calabresa, cebola",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza calabresa"
            },
 
            {
             "nome": "VEGETARIANA",
             "img": "img/pizza/vegetariana.jpg",
-            "ingredientes" :"muçarela, tomate, pimentão, cebola, milho",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, tomate, pimentão, cebola, milho",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza vegetariana"
            },
 
            {
             "nome": "MARGUERITA",
             "img": "img/pizza/margarita.jpg",
-            "ingredientes" :"muçarela, tomate, manjericão, parmesão",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, tomate, manjericão, parmesão",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza marguerita"
            },
 
            {
             "nome": "ALHO",
             "img": "img/pizza/alho.jpg",
-            "ingredientes" :"muçarela, alho frito",
-            "valor" : "22,99",
+            "ingredientes" :"mussarela, alho frito",
+            "valor" : "R$22,99",
             "pesquisa" : "pizza alho"
            },
 
            {
             "nome": "NAPOLITANA",
             "img": "img/pizza/napolitano.png",
-            "ingredientes" :"muçarela, presunto, tomate, cebola, pimentão, milho",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, presunto, tomate, cebola, pimentão, milho",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza napolitana"
            },
 
            {
             "nome": "4 QUEIJOS",
             "img": "img/pizza/4queijos.png",
-            "ingredientes" :"muçarela, parmesão, gorgonzola, provolone",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, parmesão, gorgonzola, provolone",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza 4 queijos"
            },
 
            {
             "nome": "PREZUNTO C/ABACAXI",
             "img": "img/pizza/prezunto_c_abacaxi.png",
-            "ingredientes" :"muçarela, presunto,  abacaxi",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, presunto,  abacaxi",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza prezunto com abacaxi"
            },
 
            {
             "nome": "PORTUGUESA",
             "img": "img/pizza/portuguesa.png",
-            "ingredientes" :"muçarela, presunto, calabresa, ovo, cebola, pimentão",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, presunto, calabresa, ovo, cebola, pimentão",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza portuguesa"
            },
 
@@ -101,143 +101,143 @@
             "nome": "BACON",
             "img": "img/pizza/bacon.jpg",
             "ingredientes" :"muçarela, bacon, cebola",
-            "valor" : "24,99",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza bacon"
            },
 
            {
             "nome": "CAIPIRA",
             "img": "img/pizza/Caipira.png",
-            "ingredientes" :"muçarela, frango, milho",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, frango, milho",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza caipira"
            },
 
            {
             "nome": "FRANGO C/CTPY",
             "img": "img/pizza/frango com requeijao.png",
-            "ingredientes" :"muçarela, frango, requeijão",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, frango, requeijão",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza frango com requeijão"
            },
 
            {
             "nome": "CALABRESA C/CTPY ",
             "img": "img/pizza/calabresa-requeijão.png",
-            "ingredientes" :"muçarela, calabresa, cebola, pimenta , requeijão",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, calabresa, cebola, pimenta , requeijão",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza calabresa com requeijão"
            },
 
            {
             "nome": "CARBONARA ",
             "img": "img/pizza/carbonara.png",
-            "ingredientes" :"muçarela, bacon, ovo, cebola, requeijão ,parmesão",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, bacon, ovo, cebola, requeijão ,parmesão",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza carbonara"
            },
 
            {
-            "nome": "CARNE DE SOL ",
+            "nome": "CARNE DO SOL ",
             "img": "img/pizza/carne do sol.png",
-            "ingredientes" :"muçarela, carne de sol, cebola",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, carne de sol, cebola",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza carne de sol "
            },
 
            {
-            "nome": "CARNE DE SOL/CTPY ",
+            "nome": "CARNE DO SOL/CTPY ",
             "img": "img/pizza/carne-de-sol_com_requeijão.png",
-            "ingredientes" :"muçarela, carne de sol, cebola, requeijão",
-            "valor" : "29,99",
+            "ingredientes" :"mussarela, carne de sol, cebola, requeijão",
+            "valor" : "R$29,99",
             "pesquisa" : "pizza carne de sol com requeijão"
            },
 
            {
             "nome": "SERTANEJA",
             "img": "img/pizza/sertaneja.png",
-            "ingredientes" :"muçarela, carne de sol, banana, requeijão",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, carne de sol, banana, requeijão",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza sertaneja"
            },
 
            {
-            "nome": "CAMARRÃO ",
+            "nome": "CAMARÃO",
             "img": "img/pizza/camarao.png",
-            "ingredientes" :"muçarela, tomate, camarrão refogado",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, tomate, camarrão refogado",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza camarrão"
            },
 
            {
-            "nome": "CAMARRÃO C/CTPY",
+            "nome": "CAMARÃO C/CTPY",
             "img": "img/pizza/camarao-requeijão.png",
-            "ingredientes" :"muçarela, tomate,camarrão refogado,requeijão",
-            "valor" : "29,99",
+            "ingredientes" :"mussarela, tomate,camarrão refogado,requeijão",
+            "valor" : "R$29,99",
             "pesquisa" : "pizza camarrão com requeijão"
            },
 
            {
             "nome": "BOLONHEZA",
             "img": "img/pizza/bolonhesa.png",
-            "ingredientes" :"muçarela, bolonheza, parmesão",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, bolonheza, parmesão",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza bolonheza"
            },
 
            {
             "nome": "FAMÍLIA VIEIRA",
             "img": "img/pizza/familia vieira.png",
-            "ingredientes" :"muçarela, pimenta calabresa, tomate, bacon, carne de sol ,cebola, requeijão",
-            "valor" : "29,99",
+            "ingredientes" :"mussarela, pimenta calabresa, tomate, bacon, carne de sol ,cebola, requeijão",
+            "valor" : "R$29,99",
             "pesquisa" : "pizza família vieira"
            },
 
            {
             "nome": "RAVENNA",
             "img": "img/pizza/ravenna.png",
-            "ingredientes" :"muçarela, salame, alho frito, cebola",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, salame, alho frito, cebola",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza ravenna"
            },
 
            {
             "nome": "ATUM",
             "img": "img/pizza/atum.png",
-            "ingredientes" :"muçarela, atum, alho frito, cebola",
-            "valor" : "27,99",
+            "ingredientes" :"mussarela, atum, alho frito, cebola",
+            "valor" : "R$27,99",
             "pesquisa" : "pizza atum"
            },
 
            {
             "nome": "BANANA C/CANELA",
             "img": "img/pizza/banana e canela.png",
-            "ingredientes" :"muçarela, banana, canela, caramelo",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, banana, canela, caramelo",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza banana com canela"
            },
 
            {
             "nome": "ABACAXI",
             "img": "img/pizza/abacaxi.png",
-            "ingredientes" :"muçarela, abacaxi",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, abacaxi",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza abacaxi"
            },
 
            {
             "nome": "ROMEU E JULIETA",
             "img": "img/pizza/romeu-julieta.png",
-            "ingredientes" :"muçarela, goiabada",
-            "valor" : "24,99",
+            "ingredientes" :"mussarela, goiabada",
+            "valor" : "R$24,99",
             "pesquisa" : "pizza romeu e julieta"
            },
 
            {
             "nome": "CHOCOLATE",
             "img": "img/pizza/chocolate.png",
-            "ingredientes" :"muçarela, chocolate",
-            "valor" : "29,99",
+            "ingredientes" :"mussarela, chocolate",
+            "valor" : "R$29,99",
             "pesquisa" : "pizza chocolate"
            }
         ],
@@ -246,19 +246,131 @@
 
         "esfiha":[
             {
-             "nome": "Carne",
-             "img": "",
-             "ingredientes" :"muçarela, carne, cebola",
-             "valor" : "1,80",
+             "nome": "CARNE",
+             "img": "img/esfiha/carne.png",
+             "ingredientes" :"mussarela, carne, cebola",
+             "valor" : "R$2,30",
              "pesquisa" : "esfiha carne"
             },
  
             {
-             "nome": "Mussarela",
-             "img": "",
-             "ingredientes" :"muçarela, tomate",
-             "valor" : "1,80",
+             "nome": "MUSSARELA",
+             "img": "img/esfiha/mussarela.png",
+             "ingredientes" :"mussarela, tomate",
+             "valor" : "R$2,30",
              "pesquisa" : "esfiha Mussarela"
+            },
+
+            {
+                "nome": "CARNE DE SOL",
+                "img": "img/esfiha/carne_do_sol.png",
+                "ingredientes" :"mussarela, carne de sol, cebola",
+                "valor" : "R$2,80",
+                "pesquisa" : "esfiha carne do sol"
+            },
+            
+            {
+                "nome": "CARNE DE SOL/CPTY ",
+                "img": "img/esfiha/carne-do-sol-catupiry.png",
+                "ingredientes" :"mussarela, carne de sol, cebola, catupiry",
+                "valor" : "R$3,00",
+                "pesquisa" : "esfiha carne do sol"
+            },
+            
+            {
+                "nome": "CALABRESA",
+                "img": "img/esfiha/calabresa.png",
+                "ingredientes" :"mussarela, calabresa, cebola",
+                "valor" : "R$2,30",
+                "pesquisa" : "esfiha calabresa"
+            },
+            
+            {
+                "nome": "CALABRESA C/CPTY",
+                "img": "img/esfiha/calabresa-catupiry.png",
+                "ingredientes" :"mussarela,calabresa,cebola,pimenta calabresa,catupiry",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha calabresa catupiry"
+            },
+            
+            {
+                "nome": "FRANGO C/CPTY",
+                "img": "img/esfiha/frango-com-catupiry.png",
+                "ingredientes" :"mussarela, frango, catupiry",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha frango catupiry"
+            },
+            
+            {
+                "nome": "FRANGO C/CHEDDER",
+                "img": "img/esfiha/frango-chedder.png",
+                "ingredientes" :"mussarela, frango, chedder",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha frango chedder"
+            },
+            
+            {
+                "nome": "2 QUEIJOS",
+                "img": "img/esfiha/2_queijos.png",
+                "ingredientes" :"mussarela, parmesão",
+                "valor" : "R$2,30",
+                "pesquisa" : "esfiha 2 queijos"
+            },
+            
+            {
+                "nome": "4 QUEIJOS",
+                "img": "img/esfiha/4-queijos.png",
+                "ingredientes" :"mussarela, parmesão, requeijão, chedder",
+                "valor" : "R$3,00",
+                "pesquisa" : "esfiha 4 queijos"
+            },
+            
+            {
+                "nome": "BACON",
+                "img": "img/esfiha/bacon.png",
+                "ingredientes" :"mussarela, bacon, cebola",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha bacon"
+            },
+
+            {
+                "nome": "MISTA",
+                "img": "img/esfiha/mista.png",
+                "ingredientes" :"mussarela,prezunto,cebola",
+                "valor" : "R$2,30",
+                "pesquisa" : "esfiha mista"
+            },
+
+            {
+                "nome": "CHOCOLATE",
+                "img": "img/esfiha/chocolate.png",
+                "ingredientes" :"mussarela, chocolate",
+                "valor" : "R$3,00",
+                "pesquisa" : "esfiha chocolate"
+            },
+
+            {
+                "nome": "BANANA C/CANELA",
+                "img": "img/esfiha/banana-com-canela.png",
+                "ingredientes" :"mussarela, banana, canela, caramelo",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha banana com canela"
+            },
+
+            {
+                "nome": "ABACAXI",
+                "img": "img/esfiha/abacaxi.png",
+                "ingredientes" :"mussarela, abacaxi",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha abacaxi"
+            },
+
+            {
+                "nome": "ROMEU E JULIETA",
+                "img": "img/esfiha/romeu_e_julieta.png",
+                "ingredientes" :"mussarela, goiabada",
+                "valor" : "R$2,50",
+                "pesquisa" : "esfiha romeu e julieta"
             }
          ]
     }
