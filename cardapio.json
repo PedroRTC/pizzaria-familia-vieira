@@ -372,6 +372,169 @@
                 "valor" : "R$2,50",
                 "pesquisa" : "esfiha romeu e julieta"
             }
-         ]
-    }
+         ],
 
+         "porcoes":[
+            {
+                "nome": "BOLINHAS 12UND",
+                "img": "img/porcoes/bolinha de queijo.png",
+                "ingredientes" :"queijo, camarão,peixe e carne do sol",
+                "valor" : "R$11,99",
+                "pesquisa" : "porção de bolinhas "
+               },
+
+               {
+                "nome": "PASTELZINHO 12UND",
+                "img": "img/porcoes/pastelzinho.png",
+                "ingredientes" :"queijo, mista, carne",
+                "valor" : "R$11,99",
+                "pesquisa" : "porção de pastelzinho"
+               },
+
+               {
+                "nome": "CAMARÃO",
+                "img": "img/porcoes/camarão.png",
+                "ingredientes" :"alho e óleo 300 g.",
+                "valor" : "R$19,99",
+                "pesquisa" : "porção de camarão"
+               },
+
+               {
+                "nome": "BATATA FRITA ",
+                "img": "img/porcoes/batata_frita.png",
+                "ingredientes" :"300G",
+                "valor" : "R$7,99",
+                "pesquisa" : "porção de batata frita "
+               },
+
+               {
+                "nome": "MACAXEIRA FRITA",
+                "img": "img/porcoes/macaxeira.png",
+                "ingredientes" :"300G",
+                "valor" : "R$7,99",
+                "pesquisa" : "porção "
+               }
+
+             
+         ],
+         
+
+         "bebida":[
+            {
+                "nome": "GUARANA 1L",
+                "img": "img/bebida/guarana-1l.png",
+                "valor" : "R$4,99",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "GUARANA 2L",
+                "img": "img/bebida/guarana-2l.png",
+                "valor" : "R$8,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "GUARANA KUAT 2L",
+                "img": "img/bebida/guarana-kuat-2l.png",
+                "valor" : "R$7,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "PEPSI 1L",
+                "img": "img/bebida/pepsi-1l.png",
+                "valor" : "R$4,99",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "COCA COLA 2L",
+                "img": "img/bebida/coca-cola-2l.png",
+                "valor" : "R$9,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "SÃO GERALDO 2L",
+                "img": "img/bebida/sao-geraldo-2l.png",
+                "valor" : "R$9,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "SÃO GERALDO 1L",
+                "img": "img/bebida/sao-geraldo-1l.png",
+                "valor" : "R$6,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "SUCO JARRA 700ML",
+                "img": "img/bebida/jarra-suco.png",
+                "valor" : "R$4,99",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "HEINEKEN",
+                "img": "img/bebida/long-neck-heineken.png",
+                "valor" : "R$7,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "BUDWEISER",
+                "img": "img/bebida/long-neck-bw.png",
+                "valor" : "R$7,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "STELLA ARTOIS",
+                "img": "img/bebida/long-neck-stella.png",
+                "ingredientes":"",
+                "valor" : "R$7,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "SKOL ABRE FACIL",
+                "img": "img/bebida/long-neck-skol-abre_facil.png",
+                "valor" : "R$7,00",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "IMPÉRIO LATA",
+                "img": "img/bebida/imperio-lata.png",
+                "valor" : "R$3,50",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "PURO MALTE LATA",
+                "img": "img/bebida/puro-malte.png",
+                "valor" : "R$3,50",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "SKOL LATA",
+                "img": "img/bebida/skol-lata.png",
+                "valor" : "R$3,50",
+                "pesquisa" : ""
+               },
+
+               {
+                "nome": "COCA COLA LATA",
+                "img": "img/bebida/coca-cola-lata.png",
+                "valor" : "R$3,50",
+                "pesquisa" : ""
+               }
+         ]
+
+         
+        
+
+        }
