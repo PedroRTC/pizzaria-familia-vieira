@@ -21,7 +21,7 @@ function expandirMenu(){
  
   buttonMenu.removeEventListener("click", expandirMenu)
   buttonMenu.addEventListener("click", removerMenu)
-
+ removeCars()
 
 }
 
@@ -47,7 +47,7 @@ function expandirCarrinho(){
 }
 
 function removeCars(){
-  carrinho.style.transform="translate(100%)"
+  carrinho.style.transform="translate(130%)"
 }
 
 
