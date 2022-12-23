@@ -2,47 +2,57 @@
 
 .carrinho{
   position: fixed;
- padding: 0px 10px;
+  padding: 0px 1%;
   top:0px;
-  left: 70%;
+  left: 68%;
   width: 30%;
   background-color: #585b5c;
-  height:100vh;
+  height:100%;
   transform: translateX(100%);
   transition: all 0.5s;
   z-index: 2;
-  overflow: auto;
+  
  
 }
 
- .carrinho::-webkit-scrollbar{
+ 
+
+
+.sectionTop{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTop p{
+  width: 100%;
+}
+
+.sectionTop i{
+  transform: scale(1.3);
+  cursor: pointer;
+  color: white;
+}
+
+
+.containerCarrinho{
+  height: 80%;
+  overflow: auto;
+}
+
+.containerCarrinho::-webkit-scrollbar{
   width:0px ;
  }
 
 
-.carrinho div{
-     top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:20px ;
-}
-
-.carrinho p{
-    width: 100%;
-}
-
-.carrinho i{
-    transform: scale(1.3);
-    cursor: pointer;
-    color: white;
-}
 
 .qntPro{
     display:flex;
     justify-content: center;
     align-items: center;
     background-color: orange;
+    color: white;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -65,7 +75,7 @@
 
 .inforLaches{
   display: block;
-  width:200px;
+  width: 150px;
   height: 50px;
  
 }
@@ -96,5 +106,67 @@
  padding:5px;
  border-radius: 5px;
  border: none;
+}
+
+.buttonExcluir{
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color:#6e7274;
+  border-radius: 3px;
+  cursor: pointer;
+
+  
+}
+
+.buttonExcluir i{
+  color:white;
+  transform: scale(1.3);
+  transition: all 0.5s;
+}
+
+.buttonExcluir i:hover{
+  color: orange;
+}
+
+
+.containerValorTotal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:20%;
+  margin-bottom: 0%;
+  background-color: #585b5c;
+  border-top: #6e7274 1px solid;
+}
+
+.valorTotal{
+  width: 100%;
+  display: flex;
+  padding: 5px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nomeTotal{
+  color:#babcbd ;
+  font-weight: 700;
+}
+
+.total{
+  color: white;
+  letter-spacing: 2px;
+  padding: 0px 3px;
+}
+
+.buttonPedido{
+  width: 80%;
+  height:35px ;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 3px;
+  
 }
 

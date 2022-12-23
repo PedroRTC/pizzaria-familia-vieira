@@ -245,3 +245,27 @@ header{
    letter-spacing:2px ;
 }
 
+
+
+.containerLoading{
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color:white;
+   z-index: 3;
+}
+
+.loading{
+   width: 150px;
+   height: 150px;
+   background-size: cover;
+   background-position: 50% 50%;
+   background-image: url("../img/loading.gif");
+   border-radius: 50%;
+}
+
