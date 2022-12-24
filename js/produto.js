@@ -220,8 +220,9 @@ function armazenaLanchesCars() {
     let buttonExcluir = document.createElement("button");
 
     qntLanches.setAttribute("type", "number");
+    qntLanches.setAttribute("value","1")
     qntLanches.setAttribute("min", "1");
-    qntLanches.setAttribute("value", "1");
+   
     buttonExcluir.innerHTML = `<i class="fa fa-trash" aria-hidden="true"></i>`;
 
     lanches.classList.add("laches");
@@ -262,12 +263,20 @@ function armazenaLanchesCars() {
       let r=Number(car.valor)*qntLanches.value
      let valorLancheArre=r.toFixed(2)
 
-
+      
 
       valorLanches.innerHTML=`${valorLancheArre}`
 
       let v=document.querySelectorAll(".valorLaches")
+       let soma=0
+      for (let index = 0; index < v.length; index++) {
      
+        soma+=Number(v[index].textContent)
+
+        total.textContent=soma.toFixed(2)
+
+      }
+
       
 
 
@@ -291,10 +300,12 @@ armazenaLanchesCars();
 function excluirLanchesCars(car, lanches) {
   containerCarrinho.removeChild(lanches);
   let index = backendCars.indexOf(car);
-
+ 
   if (index > -1) {
     backendCars.splice(index, 1);
   }
+
+  
 
   localStorage.removeItem("backendCars");
   localStorage.removeItem("backendQnt");
@@ -304,6 +315,7 @@ function excluirLanchesCars(car, lanches) {
   contCars.textContent = backendQnt;
 
   let arr=Number(total.textContent)-car.valor
+  
   total.textContent=arr.toFixed(2)
   localStorage.removeItem("backendTotal")
 
