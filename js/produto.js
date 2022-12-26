@@ -63,7 +63,7 @@ function geraProdutos() {
 
     imgProduto.src = item.img;
     desProduto.innerHTML = `<p class="nomeP">${item.nome}</p><p class="subNome">pizza</p>`;
-    valor.innerHTML = item.valor;
+    valor.innerHTML = `R$ ` + item.valor;
     cars.innerHTML = `<i class="fa fa-shopping-basket icars" aria-hidden="true"></i>`;
 
     cars.addEventListener("click", () => addBackendCars(item));
@@ -94,7 +94,7 @@ function geraProdutos() {
 
     imgProduto.src = item.img;
     desProduto.innerHTML = `<p class="nomeP">${item.nome}</p><p class="subNome">esfiha</p>`;
-    valor.innerHTML = item.valor;
+    valor.innerHTML = `R$ ` + item.valor;
     cars.innerHTML = `<i class="fa fa-shopping-basket" aria-hidden="true"></i>`;
 
     cars.addEventListener("click", () => addBackendCars(item));
@@ -124,7 +124,7 @@ function geraProdutos() {
 
     imgProduto.src = item.img;
     desProduto.innerHTML = `<p class="nomeP">${item.nome}</p><p class="subNome">bebida</p>`;
-    valor.innerHTML = item.valor;
+    valor.innerHTML = `R$ ` + item.valor;
     cars.innerHTML = `<i class="fa fa-shopping-basket" aria-hidden="true"></i>`;
 
     cars.addEventListener("click", () => addBackendCars(item));
@@ -154,7 +154,7 @@ function geraProdutos() {
 
     imgProduto.src = item.img;
     desProduto.innerHTML = `<p class="nomeP">${item.nome}</p><p class="subNome">porção</p>`;
-    valor.innerHTML = item.valor;
+    valor.innerHTML = `R$ ` + item.valor;
     cars.innerHTML = `<i class="fa fa-shopping-basket" aria-hidden="true"></i>`;
     cars.addEventListener("click", () => addBackendCars(item));
 
@@ -286,7 +286,7 @@ function armazenaLanchesCars() {
    
 
     buttonExcluir.addEventListener("click", () =>
-      excluirLanchesCars(car, lanches)
+      excluirLanchesCars(car, lanches, qntLanches)
     );
 
     
@@ -297,7 +297,7 @@ armazenaLanchesCars();
 
 
 
-function excluirLanchesCars(car, lanches) {
+function excluirLanchesCars(car, lanches, qntLanches) {
   containerCarrinho.removeChild(lanches);
   let index = backendCars.indexOf(car);
  
@@ -313,10 +313,16 @@ function excluirLanchesCars(car, lanches) {
   backendQnt--;
   qntPro.textContent = backendQnt;
   contCars.textContent = backendQnt;
+ 
+   let arr=Number(total.textContent)-car.valor
+     total.textContent=arr.toFixed(2)
 
-  let arr=Number(total.textContent)-car.valor
-  
-  total.textContent=arr.toFixed(2)
+   if(qntLanches.value>=2){ 
+     arr=Number(total.textContent)-car.valor
+
+    total.textContent=arr.toFixed(2)
+   }
+ 
   localStorage.removeItem("backendTotal")
 
   localStorage.setItem("backendCars", JSON.stringify(backendCars)) || [];

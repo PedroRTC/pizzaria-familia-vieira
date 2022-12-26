@@ -167,6 +167,11 @@
   cursor: pointer;
   font-family: 'Josefin Sans', sans-serif;
   border-radius: 3px;
+  transition: all 0.5s;
   
+}
+
+.buttonPedido:hover{
+  background-color: rgb(223, 145, 1);
 }
 
