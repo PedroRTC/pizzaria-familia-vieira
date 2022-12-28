@@ -1,0 +1,71 @@
+.promocao{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 90%;
+
+  
+}
+
+.pPizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+.contP{
+    width: 100%;
+    line-height: 50px;
+    font-family: 'Handlee', cursive;
+    color: white;
+   
+}
+
+.contP h2{
+  
+    letter-spacing: 2px;
+    font-size: 25pt;
+}
+
+.contP p{
+    font-size: 14pt;
+}
+
+.contP span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    padding: 3px;
+    color:orange;
+    border-radius: 50%;
+    font-size: 20pt;
+    letter-spacing: 0px;
+    border: 2px solid orange;
+    
+}
+
+.imgPro{
+    width:100% ;
+    height:400px ;
+    background-size: cover;
+}
+
+.contP button{
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+   border:none ;
+   cursor: pointer;
+   background-color: orange;
+   color: black;
+   font-family: 'Dosis', sans-serif;
+   letter-spacing: 2px ;
+   font-weight: 700;
+   border-radius: 20px;
+}

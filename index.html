@@ -7,22 +7,23 @@
     <title>Pizzaria</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/carrinho.css" />
-    <link rel="stylesheet" href="css/cardapio.css">
-    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/cardapio.css" />
+    <link rel="stylesheet" href="css/produto.css" />
+    <link rel="stylesheet" href="css/promocao.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  
+
   <body>
     <nav class="menuTop">
       <div class="divLogo"><h1>Família Vieira</h1></div>
 
       <ul class="itemsTop">
         <li><a href="">Inicio</a></li>
-        <li><a href="">Delivery</a></li>
-        <li><a href="">Contato</a></li>
+        <li><a href="">Promoção</a></li>
+        <li><a href="">Galeria</a></li>
       </ul>
 
       <ul class="iconesTop">
@@ -79,81 +80,83 @@
       <section class="sectionTop">
         <p><span class="qntPro">0</span></p>
         <p class="buttonFechaCars">
-          <i class="fa fa-window-close-o" aria-hidden="true"></i>
+          <i class="fa fa-times" aria-hidden="true"></i>
         </p>
       </section>
 
-      <section class="containerCarrinho" >
+      <section class="containerCarrinho"></section>
 
+      <section class="containerValorTotal">
+        <p class="valorTotal">
+          <span class="nomeTotal">TOTAL: R$</span>
+          <span class="total"> 00.00 </span>
+        </p>
+        <a class="buttonPedido">Fazer pedido</a>
       </section>
-     
-       <section class="containerValorTotal">
-           <p class="valorTotal"><span class="nomeTotal">TOTAL: R$</span> <span class="total"> 00.00 </span></p><button class="buttonPedido">Fazer Pedido</button>
-       </section>
     </section>
 
     <section class="cardapío">
-      
       <div class="headerCdp">
-          <span class="subtitulo">NOSSO MENU</span>
-          <h1 class="titulo">Cardápio</h1>
-          <hr>
+        <span class="subtitulo">NOSSO MENU</span>
+        <h1 class="titulo">Cardápio</h1>
+        <hr />
       </div>
 
       <div class="todosProtudos" id="seçaoPizza">
         <h2 class="tituloSecão">Seção de Pizza</h2>
-         <section class="containerButton">
+        <section class="containerButton">
           <button class="setaEsquerda"></button>
           <button class="setaDireita"></button>
         </section>
-         <section class="containerProdutos" id="containerPizza">
-             
-         </section>
-         
+        <section class="containerProdutos" id="containerPizza"></section>
       </div>
 
       <div class="todosProtudos" id="seçaoEsfiha">
         <h2 class="tituloSecão">Seção de Esfiha</h2>
-         <section class="containerButton">
+        <section class="containerButton">
           <button class="setaEsquerda"></button>
           <button class="setaDireita"></button>
         </section>
-         <section class="containerProdutos" id="containerEsfiha">
-             
-         </section>
-         
+        <section class="containerProdutos" id="containerEsfiha"></section>
       </div>
-
 
       <div class="todosProtudos" id="seçaoBebida">
         <h2 class="tituloSecão">Seção de Bedidas</h2>
-         <section class="containerButton">
+        <section class="containerButton">
           <button class="setaEsquerda"></button>
           <button class="setaDireita"></button>
         </section>
-         <section class="containerProdutos" id="containerBebidas">
-             
-         </section>
-         
+        <section class="containerProdutos" id="containerBebidas"></section>
       </div>
 
       <div class="todosProtudos" id="seçaoPorcoes">
         <h2 class="tituloSecão">Seção de Porções</h2>
-         <section class="containerButton">
+        <section class="containerButton">
           <button class="setaEsquerda"></button>
           <button class="setaDireita"></button>
         </section>
-         <section class="containerProdutos" id="containerPorcoes">
-             
-         </section>
-         
+        <section class="containerProdutos" id="containerPorcoes"></section>
       </div>
+    </section>
 
+    <section class="promocao">
+
+      <div class="pPizza">
+        <section class="contP">
+          <h2>Pizza mais refrigerante 1L</h2>
+         
+          <p>Mussarela, Calabreza, Mista e Frango</p>
+          <p>Guarana ou pepsi</p>
+          <span>R$25,99</span>
+          <button>Fazer Pedido</button>
+        </section>
+
+        <img src="img/fundo-pPizza.png" class="imgPro" />
+      </div>
     </section>
 
     <script src="js/menu-carrinho.js"></script>
     <script src="js/http.js"></script>
     <script src="js/produto.js"></script>
-    
   </body>
 </html>

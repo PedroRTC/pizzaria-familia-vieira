@@ -10,6 +10,9 @@ let setaDireita = document.querySelectorAll(".setaDireita");
 let qntPro = document.querySelector(".qntPro");
 let contCars = document.querySelector(".contCars");
 let total=document.querySelector(".total")
+let buttonPedido=document.querySelector(".buttonPedido")
+
+
 
 let todosProdutos = [];
 let backendCars = [];
@@ -277,8 +280,6 @@ function armazenaLanchesCars() {
 
       }
 
-      
-
 
      
     })
@@ -289,9 +290,13 @@ function armazenaLanchesCars() {
       excluirLanchesCars(car, lanches, qntLanches)
     );
 
-    
+    buttonPedido.addEventListener("click", () => fazerPedido(nomeLanches,qntLanches,valorLanches));
    
   });
+
+
+
+  
 }
 armazenaLanchesCars();
 
@@ -341,3 +346,14 @@ function loadingSite(){
   document.body.appendChild(containerLoading)
 }
 
+
+  function fazerPedido(nomeLanches,qntLanches,valorLanches){
+    console.log(nomeLanches.textContent)
+    console.log(qntLanches.value)
+    console.log(valorLanches.textContent)
+    console.log(total.textContent)
+     buttonPedido.setAttribute("href",`https://api.whatsapp.com/send?phone=5585999460066&text=Pedido:20%${nomeLanches.textContent}QNT:${qntLanches.value}VALOR:${valorLanches.textContent}`)
+  }
+
+
+   
