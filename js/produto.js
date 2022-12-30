@@ -290,7 +290,7 @@ function armazenaLanchesCars() {
       excluirLanchesCars(car, lanches, qntLanches)
     );
 
-    buttonPedido.addEventListener("click", () => fazerPedido(nomeLanches,qntLanches,valorLanches));
+  
    
   });
 
@@ -347,13 +347,8 @@ function loadingSite(){
 }
 
 
-  function fazerPedido(nomeLanches,qntLanches,valorLanches){
-    console.log(nomeLanches.textContent)
-    console.log(qntLanches.value)
-    console.log(valorLanches.textContent)
-    console.log(total.textContent)
-     buttonPedido.setAttribute("href",`https://api.whatsapp.com/send?phone=5585999460066&text=Pedido:20%${nomeLanches.textContent}QNT:${qntLanches.value}VALOR:${valorLanches.textContent}`)
-  }
+ 
 
-
-   
+buttonPedido.addEventListener("click",()=>{
+  alert(`SEU PEDIDO ESTAR A CAMINHO`)
+});
