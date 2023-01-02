@@ -1,9 +1,10 @@
 
 
 .carrinho{
+  margin: auto;
   position: fixed;
-  padding: 0px 1%;
   top:0px;
+  padding: 0% 1%;
   left: 68%;
   width: 30%;
   background-color: #585b5c;
@@ -23,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 10px;
 }
 
 .sectionTop p{
@@ -63,13 +65,16 @@
   justify-content: flex-end;
 }
 .laches{
+  margin: auto;
+  margin-top:10px ;
   align-items: center;
   justify-content: center;
   align-items: center;
   display: flex;
   gap: 10px;
-  margin: 10px 0px;
   border: 1px solid #6e7274;
+ width: 90%;
+ padding: 10px;
   
 }
 
@@ -180,5 +185,22 @@
 
 .buttonPedido:hover{
   background-color: rgb(223, 145, 1);
+}
+
+@media screen and (max-width: 950px){
+  .carrinho{
+    left:48% ;
+    width: 50%;
+  }
+
+
+
+}
+
+@media screen and (max-width: 600px){
+  .carrinho{
+    width: 98%;
+    left: 0%;
+  }
 }
 

@@ -12,9 +12,11 @@ buttonFechaCars.addEventListener("click",removeCars)
 
 
 function expandirMenu(){
-  menuLateral.style.transform="translateX(0%)"
-  buttonMenu.style.transform="rotateX(180deg) scale(1.4)"
+  menuLateral.style.display="flex"
+  
   setTimeout(() => {
+    menuLateral.style.transform="translateX(0%)"
+    buttonMenu.style.transform="rotateX(180deg) scale(1.4)"
     buttonMenu.classList.remove("fa-bars")
     buttonMenu.classList.add("fa-times")
   }, 100);
@@ -27,12 +29,14 @@ function expandirMenu(){
 
 
 function removerMenu(){
+ 
     menuLateral.style.transform="translateX(-100%) "
     buttonMenu.style.transform="rotateX(0deg) scale(1.4)"
     setTimeout(() => {
+      menuLateral.style.display="none"
       buttonMenu.classList.add("fa-bars")
       buttonMenu.classList.remove("fa-times")
-    }, 100);
+    }, 400);
   
   buttonMenu.addEventListener("click", expandirMenu)
   buttonMenu.removeEventListener("click", removerMenu)

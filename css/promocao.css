@@ -1,5 +1,10 @@
+
+
+
+
 .promocao{
     margin: auto;
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
     width: 90%;
@@ -18,6 +23,7 @@
 
 
 .contP{
+    text-align: left;
     width: 100%;
     line-height: 50px;
     font-family: 'Handlee', cursive;
@@ -68,4 +74,21 @@
    letter-spacing: 2px ;
    font-weight: 700;
    border-radius: 20px;
+}
+
+@media screen and (max-width: 950px){
+   .pPizza{
+    display: inline-block;
+   }
+
+   .contP{
+    margin: auto;
+    width: 100% ;
+   }
+    
+   .imgPro{
+    height: auto;
+   }
+
+   
 }

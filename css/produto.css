@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+.cardapío{
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  
+  }
+  
+  .headerCdp{
+    padding: 20px 0px;
+   
+  }
+  
+  .titulo{
+      font-family: 'Josefin Sans', sans-serif;
+      letter-spacing: 5px;
+      font-size: 30pt;
+      color: white;
+  }
+  
+  .subtitulo{
+      display: inline-block;
+      color: orange;
+      margin-bottom: 10px;
+      font-size: 10pt;
+      font-family: 'Kanit', sans-serif;
+  
+  }
+  
+  hr{
+      
+      margin: auto;
+      margin-top: 10px;
+      width:50px ;
+      height:2px ;
+      border:none ;
+      background-color: orange;
+  }
+
+
+
 .todosProtudos{
     margin: auto;
     width: 96%;
@@ -59,7 +107,7 @@
     width: 100%;
     display:flex;
     align-items: center;
-    gap: 17px;
+    gap: 15px;
     overflow:auto;
     padding: 60px 0px 30px 0px;
     scroll-snap-type: x mandatory;
@@ -79,7 +127,7 @@
 
 .card{
   width:200px ;
-  height:270px ;
+  height:280px ;
   border-radius: 20px;
   box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.342);
   flex:none ;
@@ -100,8 +148,8 @@
 }
 
 .imgProduto{
-  width:180px ;
-  height:180px ;
+  width:200px ;
+  height:200px ;
   transform: translateY(-50px);
   border-radius:100% ;
 }
@@ -165,3 +213,30 @@
 .cars i:hover{
     background-color: orange;
 }
+
+
+@media screen and (max-width: 950px){
+  .todosProtudos{
+     width: 96%;
+  }
+}
+
+
+  @media screen and (max-width: 600px){
+
+    .containerProdutos{
+      gap: 5px;
+    }
+    .card{
+      width:170px ;
+      height:240px 
+    }
+
+    .imgProduto{
+      width:150px ;
+      height:150px ;
+      transform: translateY(-50px);
+      border-radius:100% ;
+    }
+}
+
