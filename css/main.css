@@ -337,7 +337,7 @@ header{
 
    header{
       display:block;
-      height:70vh ;
+      height:90vh ;
       background-image: url("../img/fundo-header-mob.png");
    }
 
@@ -352,7 +352,7 @@ header{
       margin-top: 60px;
       font-size: 20pt;
       width: 70%;
-      height: 40vh;
+      height: 50vh;
       line-height: 40px;
    }
 
