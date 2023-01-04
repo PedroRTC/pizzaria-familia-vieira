@@ -306,6 +306,68 @@ header{
   
 }
 
+footer{
+   text-align: center;
+   padding: 20px 0px;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 10px;
+   width: 95%;
+   height:250px ;
+   border-radius: 20px;
+   background-image: url("../img/fundo-footer.png");
+   background-size: cover;
+   background-position: 50% 50%;
+}
+
+footer hr{
+   margin: auto;
+   margin-top:5px;
+   margin-bottom:60px ;
+   width: 30%;
+   height: 1px;
+   border:none;
+   background-color:#575b5e;
+}
+
+footer  p{
+   font-family: 'Dosis', sans-serif;
+   font-size: 10pt;
+   letter-spacing: 1px;
+   color: #81888c;
+}
+
+.redeFooter{
+   text-align: center;
+   margin-top: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   
+}
+
+.redeFooter a{
+   background-color: #575b5e;
+   width: 30px;
+   height:30px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration:none ;
+   color: white;
+   border-radius: 5px;
+   transition: all 0.5s;
+}
+
+.redeFooter a:hover{
+   color: orange;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 950px){
@@ -374,4 +436,10 @@ header{
    .container-galeria{
       column-count: 2;
    }
+    
+
+   footer{
+      background-image: url("../img/fundo-footer-mob.png");
+   }
+
 }
