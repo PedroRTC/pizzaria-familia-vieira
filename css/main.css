@@ -10,6 +10,11 @@
    background-color:#303234;
  }
 
+ html{
+   scroll-behavior: smooth;
+
+ }
+
  body::-webkit-scrollbar{
    background-color: #303234;
    width:3px ;
@@ -175,7 +180,7 @@ header{
    color: white;
 }
 
-.contHeader button{
+.contHeader a{
    border:none;
    padding: 10px 25px;
    cursor: pointer;
@@ -187,9 +192,10 @@ header{
    font-family: 'Dosis', sans-serif;
    font-weight: 600;
    transition: all 0.5s;
+   text-decoration:none ;
 }
 
-.contHeader button:hover{
+.contHeader a:hover{
    background-color:rgb(205, 133, 0);
 }
 
@@ -286,7 +292,7 @@ header{
    margin: auto;
    margin-top: 20px;
    text-align: center;
-   column-count: 4;
+   column-count:4;
    column-gap: 10px;
 
 }
