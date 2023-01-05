@@ -148,8 +148,8 @@
 }
 
 .imgProduto{
-  width:200px ;
-  height:200px ;
+  width:180px ;
+  height:180px ;
   transform: translateY(-50px);
   border-radius:100% ;
 }
@@ -229,14 +229,23 @@
     }
     .card{
       width:190px ;
-      height:240px 
+      height:250px 
     }
 
     .imgProduto{
-      width:150px ;
-      height:150px ;
+      width:160px ;
+      height:160px ;
       transform: translateY(-50px);
       border-radius:100% ;
+    }
+
+    .desProduto p{
+      font-size: 9pt;
+      font-family: 'Josefin Sans', sans-serif;
+      color: white;
+      margin-bottom: 5px;
+      
+      
     }
 }
 
